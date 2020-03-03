@@ -4,7 +4,7 @@
 #
 Name     : pyDesktop3
 Version  : 0.5.2
-Release  : 3
+Release  : 4
 URL      : https://github.com/eight04/pyDesktop3/archive/v0.5.2.tar.gz
 Source0  : https://github.com/eight04/pyDesktop3/archive/v0.5.2.tar.gz
 Summary  : No detailed summary available
@@ -42,13 +42,15 @@ python3 components for the pyDesktop3 package.
 
 %prep
 %setup -q -n pyDesktop3-0.5.2
+cd %{_builddir}/pyDesktop3-0.5.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1565653850
+export SOURCE_DATE_EPOCH=1583205768
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
