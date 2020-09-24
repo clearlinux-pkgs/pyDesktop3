@@ -4,7 +4,7 @@
 #
 Name     : pyDesktop3
 Version  : 0.5.2
-Release  : 4
+Release  : 5
 URL      : https://github.com/eight04/pyDesktop3/archive/v0.5.2.tar.gz
 Source0  : https://github.com/eight04/pyDesktop3/archive/v0.5.2.tar.gz
 Summary  : No detailed summary available
